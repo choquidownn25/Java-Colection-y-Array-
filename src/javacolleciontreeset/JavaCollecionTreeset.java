@@ -27,15 +27,5 @@ public class JavaCollecionTreeset {
         objJFrameTreeCollecion.show();
     }
     
-    //Metodo mostrar
-    public static void mostrarLista(Collection lista){
-        System.out.println("Lista del producto " + lista.size() + " " + "Productos ");
-        
-        //interacion
-        for(Iterator it = lista.iterator(); it.hasNext();){
-            Producto producto = (Producto)it.next();
-            System.out.println(producto);
-        }
-    }
-    
+   
 }

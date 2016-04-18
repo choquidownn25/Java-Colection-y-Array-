@@ -11,7 +11,7 @@ package datos;
  */
 public class Producto implements Comparable<Producto>{
 
-    //Atributos
+    //Atributos de clase
     private String nombre;
     private int cantidad;
     private int precio;

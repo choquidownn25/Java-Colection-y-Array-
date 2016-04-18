@@ -31,9 +31,10 @@ public class jFrameTreesetColection extends javax.swing.JFrame {
     /**
      * Creates new form jFrameTreesetColection
      */
+    //Atributos
     //Esta es una implementación de TableModel utiliza para almacenar los valores en un vector.
     private DefaultTableModel model;
-    //Set<Producto> lista;
+   
     public jFrameTreesetColection() {
         initComponents();
         mostrarDatosConJTableModel();
